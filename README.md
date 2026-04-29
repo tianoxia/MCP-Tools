@@ -81,7 +81,7 @@ HX.MCPServer/
 
 ## Prerequisites
 
-- [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
+- [.NET 10.0 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 - Visual Studio Code (recommended for MCP integration)
 
 ## Installation & Setup
