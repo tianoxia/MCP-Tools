@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "test-mcp": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "C:\\Users\\rxia\\source\\repos\\learning\\mcp-server\\HX.MCPServer\\HX.MCPServer.csproj"
+      ],
+      "cwd": "C:\\Users\\rxia\\source\\repos\\learning\\mcp-server\\HX.MCPServer"
+    }
+  },
+  "inputs": []
+}

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.9" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.7" />
+    <PackageReference Include="ModelContextProtocol" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HX.MCPServer.Dto\HX.MCPServer.Dto.csproj" />
+    <ProjectReference Include="..\HX.MCPServer.Repository\HX.MCPServer.Repository.csproj" />
+    <ProjectReference Include="..\HX.MCPServer.Dto\HX.MCPServer.Dto.csproj" />
+    <ProjectReference Include="..\HX.MCPServer.Repository\HX.MCPServer.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
