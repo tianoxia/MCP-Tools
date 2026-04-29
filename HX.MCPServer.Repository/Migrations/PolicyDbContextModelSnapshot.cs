@@ -182,7 +182,7 @@ namespace HX.MCPServer.Repository.Migrations
                         new
                         {
                             Id = new Guid("5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b"),
-                            Carrier = "Allstate Insurance",
+                            Carrier = "Catawba Insurance",
                             CarrierAddress = "2775 Sanders Rd, Northbrook, IL 60062",
                             CarrierContactId = new Guid("c5d7e9f1-3456-7890-12cd-ef1234567890"),
                             CertificateNumber = "CERT-005-2025",

@@ -41,7 +41,7 @@ namespace HX.MCPServer.Repository.Configurations
                     Carrier = "State Farm Insurance",
                     CarrierAddress = "One State Farm Plaza, Bloomington, IL 61710",
                     CarrierContactId = new("18dd538a-8c86-4e63-96aa-af4c6012b914"), // Sarah Johnson
-                    Producer = "Smith & Associates Insurance",
+                    Producer = "InsureMax Program",
                     ProducerAddress = "789 Oak Ave, Chicago, IL 60601",
                     ProducerEmail = "info@smithassociates.com",
                     InsuredName = "Global Tech Solutions",
@@ -57,7 +57,7 @@ namespace HX.MCPServer.Repository.Configurations
                     ExpirationDate = new DateOnly(2026, 2, 1),
                     IssueDate = new DateOnly(2025, 1, 20),
                     CertificateNumber = "CERT-003-2025",
-                    Carrier = "Travelers Insurance",
+                    Carrier = "InsureMax Insurance",
                     CarrierAddress = "485 Lexington Ave, New York, NY 10017",
                     CarrierContactId = new("a3b5c7d9-1234-5678-90ab-cdef12345678"), // Michael Williams
                     Producer = "Premier Insurance Group",
@@ -76,7 +76,7 @@ namespace HX.MCPServer.Repository.Configurations
                     ExpirationDate = new DateOnly(2026, 2, 15),
                     IssueDate = new DateOnly(2025, 2, 5),
                     CertificateNumber = "CERT-004-2025",
-                    Carrier = "Nationwide Insurance",
+                    Carrier = "AssuranceAmerica Insurance",
                     CarrierAddress = "1 Nationwide Plaza, Columbus, OH 43215",
                     CarrierContactId = new("b4c6d8e0-2345-6789-01bc-def123456789"), // Emily Brown
                     Producer = "Johnson Insurance Services",
@@ -95,7 +95,7 @@ namespace HX.MCPServer.Repository.Configurations
                     ExpirationDate = new DateOnly(2026, 3, 1),
                     IssueDate = new DateOnly(2025, 2, 20),
                     CertificateNumber = "CERT-005-2025",
-                    Carrier = "Allstate Insurance",
+                    Carrier = "Catawba Insurance",
                     CarrierAddress = "2775 Sanders Rd, Northbrook, IL 60062",
                     CarrierContactId = new("c5d7e9f1-3456-7890-12cd-ef1234567890"), // David Davis
                     Producer = "Elite Risk Advisors",
