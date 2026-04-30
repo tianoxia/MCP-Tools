@@ -32,13 +32,21 @@ This MCP server exposes recipe-related functionality to AI assistants and other 
 HX.MCPServer/
 ├── HX.MCPServer/                 # Main executable project
 │   ├── Program.cs               # Application entry point and MCP server setup
-│   ├── appsettings.json         # Configuration (DummyJSON API URL)
-│   └── RR.MCPServer.csproj      # Project file
+│   ├── appsettings.json         # Configuration (DummyJSON API URL and Db Connection Strings)
+│   └── HX.MCPServer.csproj      # Project file
 ├── HX.MCPServer.Tool/           # MCP tools implementation
-│   └── DummyJsonTool.cs         # Recipe API tools
+│	├── PolicyTool.cs			 # Policy API tools
+│	├── UnderwriterTool.cs       # Underwriter API tools
+│   └── DummyJsonTool.cs         # Recipe API tools	
 ├── HX.MCPServer.Dto/            # Data transfer objects
+│   ├── PolicyDto.cs             # Individual policy model
+│	├── UnderwriterDto.cs        # Individual underwriter model
 │   ├── RecipeDto.cs             # Individual recipe model
 │   └── RecipeSearchDto.cs       # Recipe search results model
+├── HX.MCPServer.Entity			 # Database model
+│	├── Policy.cs			     # Individual policy db entity
+│	├── Underwriter.cs           # Individual underwriter db entity
+│   └── BaseEntity.cs            # Base entity	
 └── .vscode/
     └── mcp.json                 # VS Code MCP client configuration
 ```
