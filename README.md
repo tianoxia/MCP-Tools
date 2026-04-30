@@ -102,9 +102,9 @@ HX.MCPServer/
 
 ### 6. Get Underwriter
 
--- **Purpose**: Search for underwriters in a MS SQL Server Database
--- **Method**: `GetUnderwritersAsync(...)`
--- **Parameters**: 
+- **Purpose**: Search for underwriters in a MS SQL Server Database
+- **Method**: `GetUnderwritersAsync(...)`
+- **Parameters**: 
   - `firstName`: first name (optional)
   - `lastName`: last name (optional)
   - `email`: email (optional)
