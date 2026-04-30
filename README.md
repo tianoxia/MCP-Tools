@@ -79,6 +79,31 @@ HX.MCPServer/
   - `order`: Sort order 'asc' or 'desc' (default: 'asc')
 - **Returns**: JSON serialized recipe list with pagination info
 
+### 5. Get Policies
+
+- **Purpose**: Search for policies in a MS SQL Server Database
+- **Method**: `GetPoliciesAsync(...)`
+- **Parameters**:
+  - `carrierContactEmail`: carrier contact email (optional)
+  - `insuredName`: insured name (optional)
+  - `producer`: producer (optional)
+  - `policyNumber`: policy number (optional)
+  - `certificateNumber`: certificate number (optional)
+  - `skip`: Number of records to skip for pagination (default: 0)
+  - `take`: Number of records to take for pagination (default: 10)
+
+### 6. Get Underwriter
+
+-- **Purpose**: Search for underwriters in a MS SQL Server Database
+-- **Method**: `GetUnderwritersAsync(...)`
+-- **Parameters**: 
+  - `firstName`: first name (optional)
+  - `lastName`: last name (optional)
+  - `email`: email (optional)
+  - `title`: title (optional)
+  - `skip`: Number of records to skip for pagination (default: 0)
+  - `take`: Number of records to take for pagination (default: 10)
+
 ## Prerequisites
 
 - [.NET 10.0 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
@@ -155,7 +180,19 @@ SearchRecipeAsync("pizza") → Returns pizza-related recipes
 
 # Browse recipes with pagination
 GetRecipesAsync(5, 0) → Returns first 5 recipes
-```
+
+Search for Policies
+GetPoliciesAsync("POL-2025-003") → Returns below 
+	•	Policy Number: POL-2025-003
+	•	Certificate Number: CERT-003-2025
+	•	Insured: Metro Manufacturing Inc
+	•	Effective Date: 2025-02-01
+	•	Expiration Date: 2026-02-01
+	•	Issue Date: 2025-01-20
+..
+
+# Search for Underwriters
+GetUnderwritersAsync("smith") → Returns John Smith
 
 ## Development
 

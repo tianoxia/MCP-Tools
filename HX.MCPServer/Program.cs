@@ -74,6 +74,6 @@ app.UseAuthorization();
 
 // Map MCP endpoints - auth disabled for local development
 // TODO: Re-enable .RequireAuthorization() for production
-app.MapMcp();
+app.MapMcp("/mcp");
 
 await app.RunAsync(); // Fixed: removed duplicate builder.Build()
